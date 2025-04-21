@@ -6,11 +6,11 @@ requires-python = ">=3.9"
 readme = "README.md"
 license = { text = "AGPL-3.0" }
 dependencies = [
-    "ultralytics>=8.2",
-    "mediapipe>=0.10.13",
-    "pydantic<3",
-    "rich>=13",
-    "huggingface_hub",
+    "ultralytics==8.2",
+    "mediapipe==0.10.13",
+    "pydantic==2.6.4",
+    "rich==13.7.1",
+    "huggingface_hub==0.21.4"
 ]
 keywords = [
     "stable-diffusion",
